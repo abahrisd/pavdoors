@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+    [[$head]]
+</head>
+<body class="">
+    <div class="master-wrapper">
+
+        <header id="header">
+            [[$header]]
+        </header>
+
+        <div class="navbar navbar-static-top" id="stickyNavbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="span9">
+                            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <div class="nav-collapse collapse">
+                                <ul class="nav" id="mainNavigation">
+                                    <li>[[$companyMenuItem]]</li>
+                                    <li class="dropdown active dropdown-supermenu">[[$catalogMenuItem]]</li>
+                                    <li class="dropdown">[[$InfoMenuItem]]</li>
+                                    <li>[[$galleryMenuItems]]</li>
+                                    <li>[[$contactsMenuItem]]</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        [[$breadcrumbs]]
+
+        <div class="container">
+            <div class="push-up blocks-spacer">
+                <div class="row">
+
+                    <aside class="span3 left-sidebar" id="tourStep1">
+                        <div class="sidebar-item sidebar-filters" id="sidebarFilters">
+
+                            <div class="underlined">
+                                <h3><span class="light">Фильтры</span></h3>
+                            </div>
+
+                            [[*content]]
+
+                            <a href="#" class="remove-filter" id="removeFilters"><span class="icon-ban-circle"></span> Снять все фильтры</a>
+                        </div>
+                    </aside>
+
+                    <section class="span9">
+
+                        <div class="underlined push-down-20">
+                            <div class="row">
+                                <div class="span4">
+                                    <h3><span class="light">[[*pageFirstName]]</span> [[*pageLastName]]</h3>
+                                </div>
+                                <div class="span5 align-right sm-align-left">
+                                    <div class="form-inline sorting-by" id="tourStep4">
+                                        <label for="isotopeSorting" class="black-clr">Сортировка:</label>
+                                        <select id="isotopeSorting" class="span3">
+                                            <option value='{"sortBy":"price", "sortAscending":"true"}'>По цене (по повышению) &uarr;</option>
+                                            <option value='{"sortBy":"price", "sortAscending":"false"}'>По цене (по понижению) &darr;</option>
+                                            <option value='{"sortBy":"name", "sortAscending":"true"}'>По названию (по повышению) &uarr;</option>
+                                            <option value='{"sortBy":"name", "sortAscending":"false"}'>По названию (по понижению) &darr;</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Продукты-->
+                        <div class="row popup-products">
+                            <div id="isotopeContainer" class="isotope-container">
+                                [[!pdoResources:default=`Результаты не найдены`? &parents=`[[*id]]` &includeTVs=`dataPrice,cover,color,manufacturer,compactor,install,furType,accessories,dataImage,dataName,dataDescription` &tpl=`item` &limit=50]]
+                            </div>
+                        </div>
+                        <hr/>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+        [[$footer]]
+
+    </div>
+
+    <div id="fb-root"></div>
+    [[$basementScripts]]
+</body>
+</html>

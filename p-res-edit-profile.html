@@ -1,0 +1,45 @@
+<p>[[!UpdateProfile]]</p>
+<form class="form-horizontal well callme" action="[[~[[*id]]]]" method="post">[[+login.update_success:eq=`1`:then=`
+    <div style="width: 617px; padding: 12px 12px 1px; background: #e9ffe9; color: #030; margin-left: 0; margin-bottom: 15px;">
+        <p>[[%login.profile_updated? &amp;namespace=`login` &topic=`updateprofile`]]</p>
+        <p>Вы будете перенаправлены в <a href="[[~4]]">личный кабинет</a> <span id="timer_inp">через <strong>2</strong> секунд</span></p>
+        <script type="text/javascript">
+        // <![CDATA[
+            setTimeout('document.getElementById("timer_inp").innerHTML = "через <b>1</b> секунды"', 1000);
+            setTimeout('document.getElementById("timer_inp").innerHTML = "<b>прямо сейчас</b>"', 2000);
+            setTimeout('document.location.href="[[~4]]"', 2000);
+        // ]]>
+        </script>
+    </div>
+    `:else=``]]
+    <div class="row-fluid">
+        <div class="span8 offset2">[[+message]]
+            <div class="clearfix"><label class="control-label" style="width: 170px;" for="fullname">Имя, фамилия</label>
+                <div class="input" style="margin-left: 180px;"><input id="fullname" style="width: 450px;" type="text" name="fullname" value="[[+fullname]]" /></div>
+            </div>
+            <div class="clearfix"><label class="control-label" style="width: 170px;" for="phone">Телефон</label>
+                <div class="input" style="margin-left: 180px;"><input id="phone" style="width: 450px;" type="text" name="phone" value="[[+phone]]" /></div>
+            </div>
+            <div class="clearfix"><label class="control-label" style="width: 170px;" for="mobilephone">Мобильный (второй) телефон</label>
+                <div class="input" style="margin-left: 180px;"><input id="mobilephone" style="width: 450px;" type="text" name="mobilephone" value="[[+mobilephone]]" /></div>
+            </div>
+            <div class="clearfix"><label class="control-label" style="width: 170px;" for="country">Страна</label>
+                <div class="input" style="margin-left: 180px;"><input id="country" style="width: 450px;" type="text" name="country" value="[[+country:default=`Россия`]]" /></div>
+            </div>
+            <div class="clearfix"><label class="control-label" style="width: 170px;" for="city">Город</label>
+                <div class="input" style="margin-left: 180px;"><input id="city" style="width: 450px;" type="text" name="city" value="[[+city]]" /></div>
+            </div>
+            <div class="clearfix"><label class="control-label" style="width: 170px;" for="address">Адрес</label>
+                <div class="input" style="margin-left: 180px;"><input id="address" style="width: 450px;" type="text" name="address" value="[[+address]]" />
+                    <p class="help-inline">Улица (проспект, переулок и пр.), дом, офис</p>
+                </div>
+            </div>
+            <div class="clearfix"><label class="control-label" style="width: 170px;" for="website">Сайт</label>
+                <div class="input" style="margin-left: 180px;"><input id="website" style="width: 450px;" type="text" name="website" value="[[+website]]" /></div>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="form-buttons"><input class="btn primary" style="width: 165px; height: 30px;" type="submit" value="Сохранить" /></div>
+        </div>
+    </div>
+</form>

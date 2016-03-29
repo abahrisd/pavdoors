@@ -1,0 +1,61 @@
+[[!Register?
+    &amp;submitVar=`registerbtn`
+    &amp;activation=`1`
+    &amp;successMsg=`На указанный вами адрес электронной почты отправлено сообщение. Для активации своего аккаунта перейдите по ссылке в письме.`
+    &amp;activationEmailSubject=`Подтверждение регистрации`
+    &amp;activationResourceId=`30`
+    &amp;usergroups=`Users`
+    &amp;validate=`nospam:blank, password:required:minLength=^8^, password_confirm:password_confirm=^password^, fullname:required, email:required:email`
+    &amp;usernameField=`email`
+    &placeholderPrefix=`reg.`
+]]
+
+[[!+error.message:eq=``:then=`
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="registerModalLabel"><span class="light"></span>Регистрация</h3>
+    </div>
+
+    <div class="modal-body">
+        <form action="[[~[[*id]]]]" method="post">
+
+            <input type="hidden" name="nospam" value="[[!+reg.nospam]]" />
+
+            <div class="control-group">
+                <label class="control-label hidden shown-ie8" for="email">Электронная почта</label>
+                <div class="controls">
+                    <input type="text" class="input-block-level" name="email" placeholder="Электронная почта" value="[[!+reg.email]]" />
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label hidden shown-ie8" for="password">Пароль</label>
+                <div class="controls">
+                    <input type="password" class="input-block-level" name="password" placeholder="Пароль" value="[[!+reg.password]]" /> <span class="help-block text-error"> [[!+reg.error.password]] </span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label hidden shown-ie8" for="password_confirm">Повторите пароль</label>
+                <div class="controls">
+                    <input type="password" class="input-block-level" name="password_confirm" placeholder="Повторите пароль" value="[[!+reg.password_confirm]]" /> <span class="help-block text-error"> [[!+reg.error.password_confirm]] </span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label hidden shown-ie8" for="fullname">Имя и фамилия</label>
+                <div class="controls">
+                    <input type="text" class="input-block-level" name="fullname" placeholder="Имя и фамилия" value="[[!+reg.fullname:Jevix]]" /> <span class="help-block text-error"> [[!+reg.error.fullname]] </span>
+                </div>
+            </div>
+
+            <button type="submit" name="registerbtn" value="[[+actionMsg]]" class="btn btn-danger input-block-level bold higher">
+                Зарегистрироваться
+            </button>
+
+        </form>
+    </div>
+`:else=`
+    <div class="alert alert-success">[[!+error.message]]</div>
+`]]

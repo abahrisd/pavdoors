@@ -1,0 +1,51 @@
+<div class="span3" data-shopcart="1">
+    <div class="cart-container">
+        <div class="cart">
+            <p class="items">Корзина <span class="dark-clr">(0)</span></p>
+            <span class="btn btn-danger">
+                <i class="icon-shopping-cart"></i>
+            </span>
+        </div>
+        <div class="open-panel" style="left:0">
+            <div class="summary">
+                <div class="line">
+                    <p>Корзина пуста</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    [[+plugin]]
+</div>
+<!--tpl_separator-->
+<div class="span3" data-shopcart="1">
+    <div class="cart-container">
+        <div class="cart">
+            <p class="items">Козина <span class="dark-clr">([[+items_total]])</span></p>
+            <p class="dark-clr hidden-tablet">[[+price_total]] [[+currency]]</p>
+            <a href="[[+order_page_url]]" class="btn btn-danger">
+                <i class="icon-shopping-cart"></i>
+            </a>
+        </div>
+        <div class="open-panel" style="max-height:37rem; overflow:auto">
+            <form action="[[+this_page_url]]" method="post">
+                <!--<div class="proceed" style="background: white;"> #shopCart
+                    <a href="[[+empty_url]]" class="btn pull-right bold higher">Очистить корзину <i class="icon-shopping-cart"></i></a>
+                </div>-->
+                [[+inner]]
+                <div class="summary">
+                    <div class="line">
+                        <div class="row-fluid">
+                            <div class="span6">Общая сумма:</div>
+                            <div class="span6 align-right size-16"><b>[[+price_total]]</b> [[+currency]]</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="proceed">
+                    <a href="[[+order_page_url]]" class="btn btn-danger pull-right bold higher">Оформить заказ <i class="icon-shopping-cart"></i></a>
+                    <small>Дополнительные услуги и доставка расчитывается дополнительно. <a href="services">Подробнее</a></small>
+                </div>
+            </form>
+        </div>
+    </div>
+    [[+plugin]]
+</div>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    [[$head]]
+</head>
+<body class="">
+<div class="master-wrapper">
+
+    <header id="header">
+        [[$header]]
+    </header>
+
+    <div class="navbar navbar-static-top" id="stickyNavbar">
+        <div class="navbar-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="span9">
+                        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <div class="nav-collapse collapse">
+                            <ul class="nav" id="mainNavigation">
+                                <li class="dropdown">[[!getActions]]</li>
+                                <li>[[$companyMenuItem]]</li>
+                                <li class="dropdown dropdown-supermenu">[[$catalogMenuItem]]</li>
+                                <li class="dropdown">[[$InfoMenuItem]]</li>
+                                <li>[[$galleryMenuItems]]</li>
+                                <li class="active" >[[$contactsMenuItem]]</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    [[$breadcrumbs]]
+
+    <div class="container">
+        <div class="push-up top-equal blocks-spacer-last">
+            <div class="row">
+
+                <div class="span12">
+                    <div class="title-area">
+                        <h1 class="inline"><span class="light">Свяжитесь</span> с Нами</h1>
+                    </div>
+                </div>
+
+                <section class="span12 single single-page">
+
+                    <article class="company-info">
+
+                        <div class="row">
+
+                            <div class="span12">
+
+                                <article class="post">
+                                    <div class="post-inner">
+                                        <p>
+                                            По возникшим вопросам вы можете связаться с нами любым удобным для вас способом - позвонить по телефонам, указанным ниже, <a href="#sendMessage">отправить сообщение</a> или <a href="#measureModal" role="button" data-toggle="modal">заказать обратный звонок</a>.
+                                        </p>
+                                    </div>
+                                </article>
+                                <hr/>
+                            </div>
+
+                            <div class="span6" id="contactInfo">
+
+
+                                <h3 class="push-down-10"><span class="">Отделы розничных продаж:</span></h3>
+                                <p>
+                                    <span class="zocial-cart"></span><strong class="class=opensans dark-clr"> ТЦ Гудвин</strong>, ул. Уральская, 63 к3 &mdash; 1-й этаж, тел. <a href="tel:+73422640365" class="alt"><span itemprop="telephone">+7 (342) 264-03-65</span></a>, время работы: с 10-00 до 20-00
+                                    <br/>
+                                    <span class="zocial-cart"></span><strong class="class=opensans dark-clr"> ТЦ Радуга</strong>, ул. Красноармейская 1-я, 6 &mdash; 1-й этаж, тел. <a href="tel:+73422073237" class="alt"><span itemprop="telephone">+7 (342) 207-32-37</span></a>, время работы: с 10-00 до 21-00
+                                    <br/>
+                                    <span class="zocial-cart"></span><strong class="class=opensans dark-clr"> ТЦ Евразия</strong>, ул. Героев Хасана, 56 &mdash; 2-й этаж, тел. <a href="tel:+73422498066" class="alt"><span itemprop="telephone">+7 (342) 249-80-66</span></a>, время работы: с 10-00 до 21-00
+                                </p>
+                                <hr/>
+                                <!--<br/>-->
+
+                                <h3 class="push-down-10"><span class="">Офис-склад</span></h3>
+                                <p>
+                                    <i class="icon-archive"></i> Ул. Героев Хасана, 56 &mdash; 2-й этаж, тел. <a href="tel:+73422073230" class="alt"><span itemprop="telephone">+7 (342) 207-32-30</span></a>, время работы: с 9-00 до 18-00
+                                </p>
+                                <hr/>
+                                <!--<br/>-->
+
+                                <p>
+                                    <span class="zocial-email"></span> E-mail:
+                                    <a href="mailto:polygalovav@mail.ru" class="alt">
+                                        <span >polygalovav@mail.ru</span>
+                                    </a>
+                                </p>
+                                <hr/>
+                                <!--<br/>-->
+
+
+                                <section class="contact-form-container" id="sendMessage">
+                                    <h3 class="push-down-25"><span class="light"></span> Отправить Сообщение</h3>
+
+                                    <form id="commentform" method="post" action="#" class="form form-inline form-contact">
+                                        <p class="push-down-20">
+                                            <input type="text" aria-required="true" tabindex="1" size="30" value="" id="author" name="author" required>
+                                            <label for="author">Ваше имя<span class="red-clr bold">*</span></label>
+                                        </p>
+                                        <p class="push-down-20">
+                                            <input type="email" aria-required="true" tabindex="2" size="30" value="" id="email" name="email" required>
+                                            <label for="email">Ваша почта<span class="red-clr bold">*</span></label>
+                                        </p>
+                                        <!--<p class="push-down-20">
+                                        <input type="text" tabindex="3" size="30" value="" id="url" name="url">
+                                        <label for="url">Website</label>
+                                        </p>-->
+                                        <p class="push-down-20">
+                                            <textarea class="input-block-level" tabindex="4" rows="7" cols="70" id="comment" name="comment" placeholder="Введите сообщение..." required></textarea>
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-primary bold" type="submit" tabindex="5" id="submit"><J>ОТПРАВИТЬ</J></button>
+                                        </p>
+                                    </form>
+                                </section>
+                            </div>
+
+                            <div class="span6">
+
+                                <script charset="utf-8" src="http://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+                                <script charset="utf-8">new DGWidgetLoader({"width":'100%',"height":400,"borderColor":"#a3a3a3","pos":{"lat":58.017918623628546,"lon":56.27883911132813,"zoom":11},"opt":{"city":"perm"},"org":[{"id":"2252328094870915"},{"id":"2252328094976206"},{"id":"70000001020383047"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+                            </div>
+<!--
+                            <div class="span6">
+
+                            </div>-->
+                        </div>
+
+                    </article>
+
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    [[$footer]]
+</div>
+
+<div id="fb-root"></div>
+[[$basementScripts]]
+</body>
+</html>

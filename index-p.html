@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+    [[$head]]
+</head>
+<body class="">
+<div class="master-wrapper">
+
+    <header id="header">
+        <!-- Верхнее меню-->
+        [[$header]]
+    </header>
+
+    <div class="navbar navbar-static-top" id="stickyNavbar">
+        <div class="navbar-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="span9">
+                        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <div class="nav-collapse collapse">
+                            <ul class="nav" id="mainNavigation">
+                                <li class="active"></li>
+                                <li class="dropdown">[[!getActions]]</li>
+                                <li class="">[[$companyMenuItem]]</li>
+                                <li class="dropdown dropdown-supermenu">[[$catalogMenuItem]]</li>
+                                <li class="dropdown">[[$InfoMenuItem]]</li>
+                                <li>[[$galleryMenuItems]]</li>
+                                <li>[[$contactsMenuItem]]</li>
+                            </ul>
+                        </div>
+                    </div>
+                    [[$ShopkeeperChunk]]
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fullwidthbanner-container">
+        <div class="fullwidthbanner">
+            <ul>
+                <li data-transition="premium-random" data-slotamount="3">
+                    <img src="assets/tmpl/images/dummy/slides/4/slide.jpg" alt="slider img" width="1400" height="377"/>
+
+                    <div class="caption lfb ltb" data-x="82" data-y="88" data-speed="300" data-start="2000" data-easing="easeInOutCubic">
+                        <img src="assets/tmpl/images/dummy/slides/pd1/door1.png" alt="satisfied customer" width="120" height="300"/>
+                    </div>
+                    <div class="caption lfb ltb" data-x="322" data-y="83" data-speed="300" data-start="2200" data-easing="easeInOutCubic">
+                        <img src="assets/tmpl/images/dummy/slides/pd1/door2.png" alt="satisfied customer" width="120" height="300"/>
+                    </div>
+                    <div class="caption lfb ltb" data-x="550" data-y="81" data-speed="300" data-start="2400" data-easing="easeInOutCubic">
+                        <img src="assets/tmpl/images/dummy/slides/pd1/door3.png" alt="satisfied customer" width="120" height="300"/>
+                    </div>
+                    <div class="caption lfb ltb" data-x="1206" data-y="86" data-speed="300" data-start="2600" data-easing="easeInOutCubic">
+                        <img src="assets/tmpl/images/dummy/slides/pd1/door4.png" alt="satisfied customer" width="120" height="300"/>
+                    </div>
+
+                    <div class="caption lfl big_theme" data-x="120" data-y="180" data-speed="1000" data-start="500" data-easing="easeInOutBack">
+                        Ассортимент более чем 500 дверей и аксессуаров
+                    </div>
+                    <div class="caption lfl small_theme" data-x="120" data-y="250" data-speed="1000" data-start="700" data-easing="easeInOutBack">
+                        Вы обязательно подберёте что нибудь на свой вкус <a href="[[~4]]">Смотреть каталог</a>
+                    </div>
+                </li>
+
+
+                <li data-transition="premium-random" data-slotamount="3">
+                    <img src="assets/tmpl/images/dummy/slides/pd2/slide.jpg" alt="slider img" width="1400" height="377"/>
+
+                    <div class="caption lft ltt" data-x="153" data-y="173" data-speed="300" data-start="2000" data-easing="easeInOutBack">
+                        <img src="assets/tmpl/images/dummy/slides/pd2/marker2.png" alt="satisfied customer" width="64" height="64"/>
+                    </div>
+                    <div class="caption lft ltt" data-x="693" data-y="56" data-speed="300" data-start="2200" data-easing="easeInOutBack">
+                        <img src="assets/tmpl/images/dummy/slides/pd2/marker3.png" alt="satisfied customer" width="64" height="64"/>
+                    </div>
+                    <div class="caption lft ltt" data-x="1182" data-y="190" data-speed="300" data-start="2400" data-easing="easeInOutBack">
+                        <img src="assets/tmpl/images/dummy/slides/pd2/marker1.png" alt="satisfied customer" width="64" height="64"/>
+                    </div>
+
+                    <div class="caption lfl big_theme" data-x="120" data-y="220" data-speed="1000" data-start="500" data-easing="easeInOutBack">
+                        Сеть розничных точек по всему городу
+                    </div>
+                    <div class="caption lfl small_theme" data-x="120" data-y="290" data-speed="1000" data-start="700" data-easing="easeInOutBack">
+                        <a href="[[~3]]#contactInfo">Адреса филиалов</a>
+                    </div>
+                </li>
+
+                <li data-transition="premium-random" data-slotamount="3">
+                    <img src="assets/tmpl/images/dummy/slides/pd3/slide.jpg" alt="slider img" width="1400" height="377"/>
+
+                    <div class="caption lfl big_theme" data-x="120" data-y="150" data-speed="1000" data-start="300" data-easing="easeInOutBack">
+                        ВНИМАНИЕ - АКЦИЯ!
+                    </div>
+                    <div class="caption lfl big_theme" data-x="120" data-y="220" data-speed="1000" data-start="500" data-easing="easeInOutBack">
+                        С 1 марта по 31 апреля установка дверей - в подарок!
+                    </div>
+                    <div class="caption lfl small_theme" data-x="120" data-y="290" data-speed="1000" data-start="700" data-easing="easeInOutBack">
+                        <a href="[[~41]]">Подробности акции</a>
+                    </div>
+                </li>
+
+            </ul>
+            <div class="tp-bannertimer"></div>
+        </div>
+
+
+
+        <div id="sliderRevLeft"><i class="icon-chevron-left"></i></div>
+        <div id="sliderRevRight"><i class=  "icon-chevron-right"></i></div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="push-up over-slider blocks-spacer">
+
+                    <div class="row">
+                        <div class="span4">
+                            <a href="#measureModal" class="btn btn-block banner"  role="button" data-toggle="modal">
+                                <span class="title"><span class="light">ЗАКАЖИТЕ</span> ОБРАТНЫЙ ЗВОНОК</span>
+                                <em>Или вызовите замерщика.</em>
+                            </a>
+                        </div>
+
+                        <div class="span4">
+                            <a href="[[$contactsURL]]" class="btn btn-block colored banner">
+                                <span class="title"><span class="light">СВЯЖИТЕСЬ</span> С НАМИ</span>
+                                <em>удобным для вас способом</em>
+                            </a>
+                        </div>
+
+                        <div class="span4">
+                            <a href="[[~4]]" class="btn btn-block banner">
+                                <span class="title"><span class="light">РЕГУЛЯРНЫЕ</span> НОВИНКИ</span>
+                                <em>Постоянно пополняющийся ассортимент</em>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="darker-stripe blocks-spacer more-space latest-news with-shadows">
+        <div class="container">
+
+            <div class="row">
+                <div class="span12">
+                    <div class="main-titles center-align">
+                        <h2 class="title">
+                            <span class="clickable icon-chevron-left" id="tweetsLeft"></span> &nbsp;&nbsp;&nbsp;
+                            <span class="light">Последние</span> Новости &nbsp;&nbsp;&nbsp;
+                            <span class="clickable icon-chevron-right" id="tweetsRight"></span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span12">
+                    <div class="carouFredSel" data-nav="tweets" data-autoplay="false">
+
+                        [[!pdoResources:default=`Результаты не найдены`?
+                        &parents=`40`
+                        &includeTVs=`articlePicture,articlePictureAlt,articleDate,articleIntroduction,articleFirstWord,articleOtherWords`
+                        &tpl=`newsMainPage`
+                        &limit=50
+                        &sortby=`{"createdon":"ASC"}`
+                        ]]
+
+                        [[!pdoResources:default=`Результаты не найдены`?
+                        &parents=`53`
+                        &includeTVs=`articlePicture,articlePictureAlt,articleDate,articleIntroduction,articleFirstWord,articleOtherWords`
+                        &tpl=`newsMainPage`
+                        &limit=50
+                        &sortby=`{"createdon":"ASC"}`
+                        ]]
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="most-popular blocks-spacer">
+        <div class="container">
+
+            <div class="row">
+                <div class="span12">
+                    <div class="main-titles lined">
+                        <h2 class="title"><span class="light">Последние</span> Поступления</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row popup-products">
+
+                [[!pdoResources:default=`Результаты не найдены`? &parents=`5` &includeTVs=`price,dataSizes,dataColors,dataBrand,dataImage,dataName,dataDescription` &tpl=`myDoorTpl` &limit=1]]
+                [[!pdoResources:default=`Результаты не найдены`? &parents=`7` &includeTVs=`price,dataSizes,dataColors,dataBrand,dataImage,dataName,dataDescription` &tpl=`myDoorTpl` &limit=1]]
+                [[!pdoResources:default=`Результаты не найдены`? &parents=`9` &includeTVs=`price,dataSizes,dataColors,dataBrand,dataImage,dataName,dataDescription` &tpl=`myDoorTpl` &limit=1]]
+                [[!pdoResources:default=`Результаты не найдены`? &parents=`27` &includeTVs=`price,dataSizes,dataColors,dataBrand,dataImage,dataName,dataDescription` &tpl=`myDoorTpl` &limit=1]]
+
+            </div>
+        </div>
+    </div>
+
+    <div class="boxed-area blocks-spacer">
+        <div class="container">
+
+            <div class="row">
+                <div class="span12">
+                    <div class="main-titles lined">
+                        <h2 class="title"><span class="light">Рекомендуемые</span> Продукты</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row popup-products blocks-spacer">
+
+                [[!pdoResources:default=`Результаты не найдены`? &parents=`5` &includeTVs=`price,dataSizes,dataColors,dataBrand,dataImage,dataName,dataDescription` &tpl=`myDoorTpl` &limit=2]]
+
+                <!--<div class="clearfix"></div>-->
+
+                [[!pdoResources:default=`Результаты не найдены`? &parents=`7` &includeTVs=`price,dataSizes,dataColors,dataBrand,dataImage,dataName,dataDescription` &tpl=`myDoorTpl` &limit=2]]
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container blocks-spacer-last">
+        <div class="row">
+            <div class="span12">
+                <div class="main-titles lined">
+                    <h2 class="title"><span class="light">Наши</span> Брэнды</h2>
+                    <div class="arrows">
+                        <a class="clickable  icon-chevron-left" id="brandsLeft"></a>
+                        <a class="clickable  icon-chevron-right" id="brandsRight"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span12">
+                <div class="brands  carouFredSel" data-nav="brands" data-autoplay="true">
+                    <a href="[[~46]]"><img src="assets/tmpl/images/dummy/brands/adenbau.jpg" alt="" width="203" height="104"/></a>
+                    <a href="[[~49]]"><img src="assets/tmpl/images/dummy/brands/archie.jpg" alt="" width="203" height="104"/></a>
+                    <a href="[[~50]]"><img src="assets/tmpl/images/dummy/brands/bussare.jpg" alt="" width="203" height="104"/></a>
+                    <a href="#"><img src="assets/tmpl/images/dummy/brands/dellaks.jpg" alt="" width="203" height="104"/></a>
+                    <a href="#"><img src="assets/tmpl/images/dummy/brands/dd.jpg" alt="" width="203" height="104"/></a>
+                    <a href="#"><img src="assets/tmpl/images/dummy/brands/kardinal.jpg" alt="" width="203" height="104"/></a>
+                    <a href="#"><img src="assets/tmpl/images/dummy/brands/olimp.jpg" alt="" width="203" height="104"/></a>
+                    <a href="#"><img src="assets/tmpl/images/dummy/brands/ostium.jpg" alt="" width="203" height="104"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    [[$footer]]
+
+</div>
+
+<div id="fb-root"></div>
+[[$basementScripts]]
+</body>
+</html>

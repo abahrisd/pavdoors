@@ -1,0 +1,96 @@
+<footer>
+    <div class="foot-light">
+        <div class="container">
+            <div class="row">
+
+                <div class="span4">
+                    <a href="index.php">
+                        <img src="assets/tmpl/images/pav-logo-white.png" class="push-down-20" alt="Pavdoors Logo" height="81" width="176" />
+                    </a>
+                    <p>10 лет успешной работы.</p>
+                </div>
+
+                <div class="span4">
+                    <div class="main-titles lined">
+                        <h3 class="title"><span class="light"></span> Продукция</h3>
+                    </div>
+                    <ul class="nav">
+                        <li><a href="[[$metallDoorsURL]]">Стальные двери</a></li>
+                        <li><a href="[[$woodenDoorsURL]]">Межкомнатные двери</a></li>
+                        <li><a href="[[$furtitureURL]]">Фурнитура</a></li>
+                        <li><a href="[[$accessoriesURL]]">Комплектующие</a></li>
+                    </ul>
+                </div>
+
+                <div class="span4">
+                    <div class="main-titles lined">
+                        <h3 class="title"><span class="light"></span> Мы в соцсетях</h3>
+                    </div>
+                    <ul class="nav">
+                        <li><a href="https://www.instagram.com/pavdoors/">Instagram</a></li>
+                        <li><a href="https://twitter.com/pavdoors59">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/pavdoors">Facebook</a></li>
+                        <li><a href="http://vk.com/pavdoors">Vkontakte</a></li>
+                    </ul>
+                </div>
+
+                <div class="span4">
+                    [[!Gallery? &album=`Gallery` &limit='9' &containerTpl=`FooterGalleryTmp` &thumbTpl=`FooterGalleryItemThumb`]]
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="foot-last">
+        <a href="#" id="toTheTop">
+            <span class="icon-chevron-up"></span>
+        </a>
+    </div>
+</footer>
+
+<div id="measureModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="measureModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="measureModalLabel"><span class="light">Заказать</span> обратный звонок</h3>
+    </div>
+    <div class="modal-body">
+        <p>
+            Есть вопрос или хотите вызвать замерщика? Закажите обратный звонок.
+        </p>
+        <form method="post" action="#">
+            <div class="control-group">
+                <label class="control-label hidden shown-ie8" for="inputUsernameRegister">Имя</label>
+                <div class="controls">
+                    <input type="text" class="input-block-level" id="inputUsernameRegister" placeholder="Имя" required>
+                </div>
+            </div>
+            <!--<div class="control-group">
+                <label class="control-label hidden shown-ie8" for="inputAddressRegister">Адрес</label>
+                <div class="controls">
+                    <input type="text" class="input-block-level" id="inputAddressRegister" placeholder="Адрес" >
+                </div>
+            </div>-->
+            <!--<div class="control-group">
+                <label class="control-label hidden shown-ie8" for="inputEmailRegister">E-mail</label>
+                <div class="controls">
+                    <input type="email" class="input-block-level" id="inputEmailRegister" placeholder="E-mail" required>
+                </div>
+            </div>-->
+            <div class="control-group">
+                <label class="control-label hidden shown-ie8" for="inputPhoneRegister">Телефон</label>
+                <div class="controls">
+                    <input type='tel' class="input-block-level" pattern='\d{10}|\d{7}' id="inputPhoneRegister" placeholder="Телефон" required title='Cотовый (9225557722) или домашний (2225599)'>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label hidden shown-ie8" for="inputCommentRegister">Комментарий</label>
+                <div class="controls">
+                    <textarea class="input-block-level" id="inputCommentRegister" placeholder="Комментарий"></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-danger input-block-level bold higher">
+                Заказать звонок
+            </button>
+        </form>
+    </div>
+</div>

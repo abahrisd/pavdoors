@@ -1,0 +1,44 @@
+[[!Profile]]
+<div class="form-horizontal well">
+    <div class="row">
+        <div class="span8">
+            <div class="control-group">
+                <label class="control-label" for="fullname">Имя</label>
+                <div class="input">
+                    <p style="margin-top: 6px; font-weight: bold;">[[+fullname]]</p>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="email">Email</label>
+                <div class="input">
+                    <p style="margin-top: 6px;">[[+email]]</p>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="password">Пароль</label>
+                <div class="input">
+                    <p style="margin-top: 6px;"><a href="[[~33]]">Изменить пароль</a></p>
+                </div>
+            </div>
+            [[+phone:notempty=`<div class="control-group">
+            <label class="control-label" for="phone">Телефон</label>
+            <div class="input">
+                <p style="margin-top: 6px;">[[+phone]]</p>
+            </div>
+            </div>`]]
+            [[+address:notempty=`<div class="control-group">
+                <label class="control-label" for="address">Адрес</label>
+                <div class="input">
+                    <p style="margin-top: 6px;">[[+address]]</p>
+                </div>
+            </div>`]]
+
+        </div>
+    </div>
+
+    <div class="span4">
+        <a href="[[~34]]" class="btn btn-block bold higher">
+            <span class="title"> Редактировать профиль</span>
+        </a>
+    </div>
+</div>

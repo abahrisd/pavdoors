@@ -1,0 +1,79 @@
+[[!FormIt?
+&hooks=`priceUpd`
+&submitVar=`price`
+&errTpl=`<br /><span class="error">[[+error]]</span>`
+]]
+
+<form action="[[~[[*id]]]]" method="post" class="ajax_form af_example form-horizontal" enctype="multipart/form-data">
+
+    <input type="hidden" name="price" value="1" />
+    <div class="control-group">
+        <label class="control-label" for="pricefile">Приложите файл с ценами в формате CSV</label>
+        <div class="controls">
+            <input type="file" id="pricefile" name="pricefile" value="[[+fi.pricefile]]" maxlength="100000" class="span4" />
+            <span class="error_name">[[+fi.error.name]]</span>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <div class="controls">
+            <button type="submit" name="submit_button" value="Обновить цены" class="btn btn-info input-block-level bold higher">
+                Обновить цены
+            </button>
+        </div>
+    </div>
+
+    [[+fi.success:is=`1`:then=`
+    <div class="alert alert-success">[[+fi.successMessage]]</div>
+    `]]
+    [[+fi.validation_error:is=`1`:then=`
+    <div class="alert alert-danger">[[+fi.validation_error_message]]</div>
+    `]]
+</form>
+
+[[!AjaxForm?
+    &snippet=`file_upload`
+    &form=`priceForm`
+]]
+
+[[!AjaxForm?
+    &snippet=`FormIt`
+
+    &hooks=`file_upload`
+    &submitVar=`price`
+
+    &form=`priceForm`
+
+    &validate=`pricefile:required`
+    &validationErrorMessage=`В форме содержатся ошибки!`
+    &successMessage=`Сообщение успешно отправлено`
+]]
+
+[[!AjaxForm?
+&snippet=`FormIt`
+
+&hooks=`formit2file`
+&path = `assets/uploads/`
+&extensions = `csv`
+&maxsize = `31457280`
+&submitVar=`price`
+
+&form=`priceForm`
+
+&validate=`pricefile:required`
+&validationErrorMessage=`В форме содержатся ошибки!`
+&successMessage=`Сообщение успешно отправлено`
+]]
+
+[[!FormIt?
+&path = `assets/uploads/`
+&extensions = `jpg,JPG,jpeg,JPEG,doc,docx,pdf,txt,png,zip,mov,avi,mpeg,mp4`
+&maxsize = `31457280`
+&redirectTo=`23`
+&resource2formitfields=`parent,introtext,pagetitle,content,adress,phone,site,email,skype,mainfoto,foto1`]]
+
+&snippet=`priceUpd`
+[[!AjaxForm?
+    &snippet=`testSnip`
+    &form=`priceForm`
+]]

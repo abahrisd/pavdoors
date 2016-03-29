@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+    [[$head]]
+</head>
+<body class="">
+<div class="master-wrapper">
+
+    <header id="header">
+        [[$header]]
+    </header>
+
+    [[$menuChunk]]
+
+    [[$breadcrumbs]]
+
+    <div class="container">
+        <div class="push-up top-equal blocks-spacer">
+            <div class="row">
+
+                <div class="span12">
+                    <div class="title-area">
+                        <h1 class="inline"><span class="light">[[*articleFirstWord]]</span> [[*articleOtherWords]]</h1>
+                    </div>
+                </div>
+
+                <section class="span8 single single-post">
+                    <article class="post ">
+                        <div class="post-inner">
+                            <img src="[[*articlePicture]]" alt="[[*articlePictureAlt]]" width="1540" height="746"/>
+                            <div class="post-title">
+                                <div class="metadata">
+                                    [[*articleDate]]
+                                </div>
+                            </div>
+                            <p>
+                                [[*articleIntroduction]]
+                            </p>
+                            <p>
+                                [[*content]]
+                            </p>
+                        </div>
+                    </article>
+                    <hr/>
+                </section>
+
+                <!--<aside class="span4 right-sidebar">
+                </aside>-->
+            </div>
+        </div>
+    </div>
+
+    [[$footer]]
+
+</div>
+
+<div id="fb-root"></div>
+[[$basementScripts]]
+
+</body>
+</html>

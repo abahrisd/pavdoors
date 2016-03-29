@@ -1,0 +1,50 @@
+<div class="darker-row">
+    <div class="container">
+        <div class="row">
+            <div class="span6">
+                <div class="higher-line">
+                    [[!+modx.user.id:is=`0`:then=`
+                    Добро пожаловать! Пожалуйста
+                    <a href="#loginModal" id="loginLink" role="button" data-toggle="modal">Войдите</a> или
+                    <a href="#registerModal" id="registerLink" role="button" data-toggle="modal">Зарегестрируйтесь</a>
+                    `:else=`
+                    Добро пожаловать, <a href="[[~32]]"><b>[[!+modx.user.username]]</b></a>! <a href="index.php?service=logout">Выйти</a>
+                    `]]
+                </div>
+            </div>
+            <!--<div class="span6">
+                <div class="topmost-line">
+                    <div class="higher-line">
+                        &lt;!&ndash;<a href="[[~32]]" class="gray-link">Личный кабинет</a>&ndash;&gt;
+                        &nbsp; | &nbsp;
+                        <a href="#" class="gray-link">Оформить заказ</a>
+                    </div>
+                    &nbsp;
+                </div>
+            </div>-->
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="span7">
+            <a class="brand" href="[[~1]]">
+                <img src="/pavdoors/assets/tmpl/images/pav-logo.png" alt="Pavdoors Logo" height="81" width="176" />
+                <span class="tagline">Стальные и межкомнатные двери в Перми</span>
+            </a>
+        </div>
+
+        <div class="span5">
+            <div class="top-right">
+                <div class="icons">
+                    <a href="http://www.facebook.com/pavdoors"><span class="zocial-facebook"></span></a>
+                    <a href="https://twitter.com/pavdoors59"><span class="zocial-twitter"></span></a>
+                    <a href="https://instagram.com/pavdoors"><span class="zocial-instagram"></span></a>
+                    <a href="http://vk.com/pavdoors"><span class="zocial-vk"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

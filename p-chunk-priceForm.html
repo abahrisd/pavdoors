@@ -1,0 +1,72 @@
+<div class="span12">
+    <div class="title-area">
+        <h1 class="inline"><span class="light">Обновление</span> цен на представленные товары</h1>
+    </div>
+</div>
+
+<section class="span8 single single-page">
+
+    [[!+modx.user.id:is=`1`:then=`
+    <section class="span8">
+
+        <p>
+            Ниже приведено описание как можно обновить цены товаров, приведённых на сайте, с помощью загрузки файла с товарами и их ценами.
+        </p>
+        <p>
+            Загружаемый файл долежн быть в формате csv, разделение значений - «;» (точка с запятой), разделение строк - «,» (запятая) или знак переноса строки (Enter в текстовых редакторах).
+        </p>
+        <p>
+            Формат данного csv файла должен быть следующий:
+        <ul>
+            <li>В нём должно быть только три поля (столбика)</li>
+            <li>В первом поле должно быть название товара. Это поле не используется в скрипте и служит исключительно для удобства пользователя, что бы не запутаться в значениях</li>
+            <li>Во втором поле должно быть значение id ресурса из админки сайта. Например заходим в админку, идём в "Ресурсы/каталог/стальные двери" и смотрим значение в скобках у названия ресурса, его и указываем. <a href="/pavdoors/assets/tmpl/images/howto.png" class="add-prettyphoto"> Т.е. вот так</a>
+            </li>
+            <li>В третьем поле должна быть новая цена товара, числом, без указания валюты</li>
+        </ul>
+        </p>
+        <p>
+            Такой файл можно сделать в Excel'e (Сохранить как csv) или любом текстовом редакторе, например Notepad++. Если делаете файл в Excel'e, обязательно проверьте его в другом редакторе (например в блокноте) после сохранения, структура файла должна быть как на примере ниже.
+        </p>
+        <p>
+            Пример файла для обновления:
+            <pre>
+                Элеганс;6;500
+                Бьюти;11;156
+                Дверь2;12;9845
+                Дверь3;13;654</pre>
+        </p>
+    </section>
+    <div class="span4">
+        <form action="[[~[[*id]]]]" method="post" class="ajax_form af_example form-horizontal" enctype="multipart/form-data">
+
+            <input type="hidden" name="price" value="1" />
+            <div class="control-group">
+                <label class="control-label" for="pricefile">Приложите файл с ценами в формате CSV</label>
+                <div class="controls">
+                    <input type="file" id="pricefile" name="pricefile" value="[[+fi.pricefile]]" maxlength="100000" class="span4" />
+                    <span class="error_name">[[+fi.error.name]]</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <div class="controls">
+                    <button type="submit" name="submit_button" value="Обновить цены" class="btn btn-info input-block-level bold higher">
+                        Обновить цены
+                    </button>
+                </div>
+            </div>
+
+            [[+fi.success:is=`1`:then=`
+            <div class="alert alert-success">[[+fi.successMessage]]</div>
+            `]]
+            [[+fi.validation_error:is=`1`:then=`
+            <div class="alert alert-danger">[[+fi.validation_error_message]]</div>
+            `]]
+        </form>
+    </div>
+    `:else=`
+    Функционал только для суперадминистратора, войдите и перезайдите на страницу.
+    `]]
+
+</section>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<!-- Mirrored from www.proteusthemes.com/themes/webmarket-html/checkout-step-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Jan 2016 19:18:45 GMT -->
+<head>
+    [[$head]]
+</head>
+<body class=" checkout-page">
+<div class="master-wrapper">
+    <div class="container">
+        <div class="row">
+            <section class="span12">
+                <div class="checkout-container">
+                    <div class="row">
+                        <div class="span10 offset1">
+                            <header>
+                                <div class="row">
+
+                                    <div class="span2">
+                                        <a class="brand" href="index.php">
+                                            <img src="assets/tmpl/images/pav-logo.png" alt="Pavdoors Logo" height="81" width="176" />
+                                        </a>
+                                    </div>
+
+                                    <div class="span6">
+                                        <div class="center-align">
+                                            <h1><span class="light">Ваш</span> Заказ</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </header>
+
+                            <!--<div class="checkout-steps">
+                            </div>-->
+                            [[!Shopkeeper3?@cart_catalog  &style=`0` &noJQuery=`1` ]]
+                            <!--&cartTpl=`User.shopCartFull` &cartRowTpl=`User.shopCartRowFull-->
+                            [[!FormIt?
+                            &hooks=`spam,shk_fihook,email,FormItAutoResponder,redirect`
+                            &submitVar=`order`
+                            &emailTpl=`shopOrderReport`
+                            &fiarTpl=`shopOrderReport`
+                            &emailSubject=`В интернет-магазине "[[++site_name]]" сделан новый заказ`
+                            &fiarSubject=`Вы сделали заказ в интернет-магазине "[[++site_name]]"`
+                            &emailTo=`[[++emailsender]]`
+                            &fiarReplyTo=`[[++emailsender]]`
+                            &fiarToField=`email`
+                            &redirectTo=`10`
+                            &validate=`address:required,fullname:required,email:email:required,phone:required`
+                            &errTpl=`<br /><span class="error">[[+error]]</span>`
+                            ]]
+
+                            [[$UserShopOrderForm]]
+
+                            <hr/>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<div id="fb-root"></div>
+[[$basementScripts]]
+</body>
+</html>

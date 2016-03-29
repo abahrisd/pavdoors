@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+    [[$head]]
+</head>
+<body class="">
+    <div class="master-wrapper">
+
+        <header id="header">
+            [[$header]]
+        </header>
+
+        <div class="navbar navbar-static-top" id="stickyNavbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="span9">
+                            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <div class="nav-collapse collapse">
+                                <ul class="nav" id="mainNavigation">
+                                    <li>[[$companyMenuItem]]</li>
+                                    <li class="dropdown dropdown-supermenu">[[$catalogMenuItem]]</li>
+                                    <li class="dropdown">[[$InfoMenuItem]]</li>
+                                    <li class="active">[[$galleryMenuItems]]</li>
+                                    <li>[[$contactsMenuItem]]</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        [[$breadcrumbs]]
+
+        <div class="container">
+            <div class="push-up blocks-spacer">
+                <div class="row">
+
+                    <aside class="span3 left-sidebar">
+                        <div class="sidebar-item sidebar-filters" id="sidebarFilters">
+
+
+
+                            <div class="underlined">
+                                <h3><span class="light">Фильтры</span></h3>
+                            </div>
+
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" href="#filterOne">Метки <b class="caret"></b></a>
+                                </div>
+                                <div id="filterOne" class="accordion-body  collapse in">
+                                    <div class="accordion-inner">
+                                        <a href="#" data-target="wood" data-type="tag" class="selectable detailed"><i class="box"></i>Межкомнатные двери</a>
+                                        <a href="#" data-target="metall" data-type="tag" class="selectable detailed"><i class="box"></i>Стальные двери</a>
+                                        <a href="#" data-target="install" data-type="tag" class="selectable detailed"><i class="box"></i>Фото с установки</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" class="remove-filter" id="removeFilters"><span class="icon-ban-circle"></span> Снять все фильтры</a>
+                        </div>
+                    </aside>
+
+                    <section class="span9">
+
+                        <div class="underlined push-down-20">
+                            <div class="row">
+                                <div class="span4">
+                                    <h3><span class="light">Галерея &mdash;</span> нам есть что показать</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Галерея-->
+                        <!-- &thumbWidth=`128` &thumbHeight=`128` &imageWidth=`750` &imageHeight=`800`
+                        &thumbWidth=`128` &thumbHeight=`128`-->
+                        [[!Gallery? &album=`Gallery` &containerTpl=`NewGalleryAlbumTpl` &thumbTpl=`NewGalItemThumb`]]
+                        <hr/>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        [[$footer]]
+
+    </div>
+
+    <div id="fb-root"></div>
+    [[$basementScripts]]
+</body>
+</html>

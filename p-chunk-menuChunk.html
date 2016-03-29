@@ -1,0 +1,61 @@
+<div class="navbar navbar-static-top" id="stickyNavbar">
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="row">
+                <div class="span9">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <div class="nav-collapse collapse">
+                        <ul class="nav" id="mainNavigation">
+                            <li id="menuEmptyId"></li>
+                            <li class="dropdown" id="menuActionsId">[[!getActions]]</li>
+                            <li  id="menuAboutUsId">[[$companyMenuItem]]</li>
+                            <!-- Каталог-->
+                            <li  id="menuCatalogId" class="dropdown dropdown-supermenu">[[$catalogMenuItem]]</li>
+                            <!-- Blog-->
+                            <li id="menuInfoId" class="dropdown">[[$InfoMenuItem]]</li>
+                            <li id="menuGalleryId">[[$galleryMenuItems]]</li>
+                            <li id="menuContactsId">[[$contactsMenuItem]]</li>
+                        </ul>
+                    </div>
+                </div>
+
+                [[!ParentParams? &id=[[*id]] &level=`0` &param=`id`]]
+
+                <script>
+                    var parentId = [[+parentParamsTpl]];
+                    if (parentId){
+                        switch(parentId){
+                            case 3:
+                                $('#menuContactsId').addClass('active');
+                                break;
+                            case 4:
+                                $('#menuCatalogId').addClass('active');
+                                break;
+                            case 17:
+                                $('#menuInfoId').addClass('active');
+                                break;
+                            case 24:
+                                $('#menuGalleryId').addClass('active');
+                                break;
+                            case 25:
+                                $('#menuAboutUsId').addClass('active');
+                                break;
+                            case 40:
+                                $('#menuActionsId').addClass('active');
+                                break;
+                            default:
+                                $('#menuEmptyId').addClass('active');
+                                break;
+                        }
+                    }
+                </script>
+                [[$ShopkeeperChunk]]
+            </div>
+        </div>
+    </div>
+</div>

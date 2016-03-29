@@ -1,0 +1,38 @@
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="loginModalLabel"><span class="light">[[+actionMsg]]</span> в аккаунт</h3>
+</div>
+
+<div class="modal-body">
+    <div class="loginMessage">[[+errors]]</div>
+
+    <form class="loginLoginForm" action="[[~[[*id]]]]" method="post">
+
+        <div class="control-group">
+            <label class="control-label hidden shown-ie8" for="username">[[%login.username]]</label>
+            <div class="controls">
+                <input type="text" class="input-block-level" name="username" placeholder="Имя пользователя" required>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label hidden shown-ie8" for="password">[[%login.password]]</label>
+            <div class="controls">
+                <input type="password" class="input-block-level" name="password" placeholder="Пароль" required>
+            </div>
+        </div>
+
+        <input class="returnUrl" type="hidden" name="returnUrl" value="[[+request_uri]]" />
+
+        [[+login.recaptcha_html]]
+
+        <input class="loginLoginValue" type="hidden" name="service" value="login" />
+        <button type="submit" name="Login" value="[[+actionMsg]]" class="btn btn-primary input-block-level bold higher">
+            Войти
+        </button>
+
+    </form>
+    <p class="center-align push-down-0">
+        <a href="[[~31]]" >Забыли пароль?</a>
+    </p>
+</div>
