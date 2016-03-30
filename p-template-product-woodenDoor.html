@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+    [[$head]]
+</head>
+<body class="">
+<div class="master-wrapper">
+
+    <header id="header">
+        <!-- Верхнее меню-->
+        [[$header]]
+    </header>
+
+    [[$menuChunk]]
+
+    [[$breadcrumbs]]
+
+    <div class="container">
+        <div class="push-up top-equal blocks-spacer">
+
+            [[$productPicturesBlock5]]
+
+            <!--[[!printPlaceholders]]-->
+            <div class="row">
+                <div class="span12">
+                    <ul id="myTab" class="nav nav-tabs">
+                        <li class="active">
+                            <a href="#tab-1" data-toggle="tab">Подробнее</a>
+                        </li>
+                        <li>
+                            <a href="#tab-2" data-toggle="tab">Характеристики</a>
+                        </li>
+                        <li>
+                            <a href="#tab-3" data-toggle="tab">Цвета</a>
+                        </li>
+                        <li>
+                            <a href="#tab-4" data-toggle="tab">Дополнительно</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="fade in tab-pane active" id="tab-1">
+                            <!--Подробнее-->
+                            <p>[[*productDescriptionDetails]]</p>
+                        </div>
+                        <div class="fade tab-pane" id="tab-2">
+                                <!--Характеристики-->
+
+                            <div class="span6">
+                                <table class="table table-striped table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>Наименование</th>
+                                        <th>Значение</th>
+                                    </tr>
+                                    </thead>
+
+                                    <tbody>
+
+                                    <tr>
+                                        <th>Стандартные размеры:</th>
+                                        <td></td>
+                                    </tr>
+
+                                    [[*standartSizesHeightDetail:ifnotempty=`
+                                    <tr>
+                                        <td class="padding-left50">высота</td>
+                                        <td>[[*standartSizesHeightDetail]] </td>
+                                    </tr>
+                                    `]]
+
+                                    [[*standartSizesWeightDetail:ifnotempty=`
+                                    <tr>
+                                        <td class="padding-left50">ширина</td>
+                                        <td>[[*standartSizesWeightDetail]] </td>
+                                    </tr>
+                                    `]]
+
+                                    [[*leafThicknessDetail:ifnotempty=`
+                                    <tr>
+                                        <td>Толщина полотна</td>
+                                        <td>[[*leafThicknessDetail]] </td>
+                                    </tr>
+                                    `]]
+
+                                    [[*constructionDetail:ifnotempty=`
+                                    <tr>
+                                        <td>Дверная конструкция</td>
+                                        <td>[[*constructionDetail]] </td>
+                                    </tr>
+                                    `]]
+
+                                    [[*coverTypeDetail:ifnotempty=`
+                                    <tr>
+                                        <td>Тип покрытия</td>
+                                        <td>[[*coverTypeDetail]] </td>
+                                    </tr>
+                                    `]]
+
+                                    [[*materialDetail:ifnotempty=`
+                                    <tr>
+                                        <td>Материал</td>
+                                        <td>[[*materialDetail]] </td>
+                                    </tr>
+                                    `]]
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                        <div class="fade tab-pane" id="tab-3">
+                            <!--Цвета-->
+                            [[$colors]]
+
+                        </div>
+                        <div class="fade tab-pane" id="tab-4">
+                            <p>
+                                <!--Дополнительно-->
+                                [[*additionallyBlock]]
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="boxed-area no-bottom">
+        <div class="container">
+
+            <div class="row">
+                <div class="span12">
+                    <div class="main-titles lined">
+                        <h2 class="title"><span class="light">Последние</span> Поступления</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row popup-products">
+
+                [[!pdoResources:default=`Результаты не найдены`? &parents=`5` &includeTVs=`price,dataSizes,dataColors,dataBrand,dataImage,dataName,dataDescription` &tpl=`myDoorTpl` &limit=1]]
+                [[!pdoResources:default=`Результаты не найдены`? &parents=`7` &includeTVs=`price,dataSizes,dataColors,dataBrand,dataImage,dataName,dataDescription` &tpl=`myDoorTpl` &limit=1]]
+                [[!pdoResources:default=`Результаты не найдены`? &parents=`9` &includeTVs=`price,dataSizes,dataColors,dataBrand,dataImage,dataName,dataDescription` &tpl=`myDoorTpl` &limit=1]]
+
+            </div>
+        </div>
+    </div>
+
+    [[$footer]]
+
+</div>
+
+<div id="fb-root"></div>
+[[$basementScripts]]
+</body>
+</html>

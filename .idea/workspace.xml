@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/p-company.html" line="129" mnemonic="2" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e0fab3f-a815-44c3-ac4a-4d091ddd5f4f" name="Default" comment="" />
+    <list default="true" id="4e0fab3f-a815-44c3-ac4a-4d091ddd5f4f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p-template-product-accessories.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p-template-product-furniture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p-template-product-steelDoor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p-template-product-woodenDoor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p-tv-detailTVs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="pavdoors.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,35 +29,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="p-chunk-ShopkeeperChunk.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/p-chunk-ShopkeeperChunk.html">
+      <file leaf-file-name="p-template-product-steelDoor.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p-template-product-steelDoor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04920405">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.192307">
+              <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Павдорс/.htaccess">
+      <file leaf-file-name="p-template-product-woodenDoor.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/p-template-product-woodenDoor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.38494936">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopkeeper.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/shopkeeper.js">
+      <file leaf-file-name="p-template-product-furniture.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p-template-product-furniture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="684" column="45" selection-start-line="684" selection-start-column="45" selection-end-line="684" selection-end-column="45" />
-              <folding>
-                <marker date="1458902292953" expanded="true" signature="1079:1239" placeholder="..." />
-                <marker date="1458902292953" expanded="true" signature="30014:30027" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p-template-product-accessories.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p-template-product-accessories.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p-chunk-footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p-chunk-footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.384615">
+              <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-p.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index-p.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.384615">
+              <caret line="91" column="72" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p-tv-detailTVs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p-tv-detailTVs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.807693">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p-chunk-installMKDoors.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p-chunk-installMKDoors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7307693">
+              <caret line="135" column="55" selection-start-line="135" selection-start-column="55" selection-end-line="135" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,18 +112,8 @@
       <file leaf-file-name="p-templete-productPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p-templete-productPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="79" column="85" selection-start-line="79" selection-start-column="85" selection-end-line="79" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p-chunk-basementScripts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p-chunk-basementScripts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="99" column="65" selection-start-line="99" selection-start-column="65" selection-end-line="99" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -87,14 +129,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/p-tmpl-productPage.html" />
-        <option value="$PROJECT_DIR$/js/style.css" />
-        <option value="$PROJECT_DIR$/p-chunk-menu-cart.html" />
-        <option value="$PROJECT_DIR$/php/csvtest.html" />
-        <option value="$PROJECT_DIR$/php/test.csv" />
         <option value="$PROJECT_DIR$/p-template-chekout.html" />
         <option value="$PROJECT_DIR$/p-chunk-user-shopCart.html" />
         <option value="$PROJECT_DIR$/p-chunk-shopCartRowFull.html" />
@@ -138,9 +178,14 @@
         <option value="$PROJECT_DIR$/p-templete-productPage.html" />
         <option value="D:/Павдорс/.htaccess" />
         <option value="$PROJECT_DIR$/stylesheets/main.css" />
-        <option value="$PROJECT_DIR$/p-chunk-ShopkeeperChunk.html" />
         <option value="$PROJECT_DIR$/p-chunk-basementScripts.html" />
         <option value="$PROJECT_DIR$/js/shopkeeper.js" />
+        <option value="$PROJECT_DIR$/p-chunk-ShopkeeperChunk.html" />
+        <option value="$PROJECT_DIR$/p-template-product-steelDoor.html" />
+        <option value="$PROJECT_DIR$/p-template-product-accessories.html" />
+        <option value="$PROJECT_DIR$/p-template-product-furniture.html" />
+        <option value="$PROJECT_DIR$/p-tv-detailTVs.html" />
+        <option value="$PROJECT_DIR$/p-template-product-woodenDoor.html" />
       </list>
     </option>
   </component>
@@ -158,14 +203,14 @@
     <option name="width" value="1456" />
     <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -181,7 +226,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,6 +246,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -350,41 +395,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/test.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11854951">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p-chunk-menu-cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p-chunk-user-shopCart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.576923">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/tables.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50209206">
-          <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/p-template-services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.018181818">
@@ -526,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p-chunk-installMKDoors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9047619">
-          <caret line="126" column="12" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/p-chunk-installSteelDoors.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.769231">
@@ -631,20 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p-chunk-footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3461537">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-p.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.269231">
-          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/p-chunk-menuChunk.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.923077">
@@ -673,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p-templete-productPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="85" selection-start-line="79" selection-start-column="85" selection-end-line="79" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/p-chunk-basementScripts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -694,8 +675,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="684" column="45" selection-start-line="684" selection-start-column="45" selection-end-line="684" selection-end-column="45" />
           <folding>
-            <marker date="1458902292953" expanded="true" signature="1079:1239" placeholder="..." />
-            <marker date="1458902292953" expanded="true" signature="30014:30027" placeholder="..." />
+            <marker date="1458902292953" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458902292953" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -710,8 +691,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p-chunk-ShopkeeperChunk.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04920405">
+        <state vertical-scroll-proportion="-1.3076923">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p-chunk-installMKDoors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7307693">
+          <caret line="135" column="55" selection-start-line="135" selection-start-column="55" selection-end-line="135" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p-templete-productPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="99" column="65" selection-start-line="99" selection-start-column="65" selection-end-line="99" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-p.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="91" column="72" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p-chunk-footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p-template-product-steelDoor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.192307">
+          <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p-tv-detailTVs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.807693">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p-template-product-furniture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p-template-product-accessories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p-template-product-woodenDoor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38494936">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding />
         </state>
       </provider>
