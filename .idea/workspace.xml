@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e0fab3f-a815-44c3-ac4a-4d091ddd5f4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p-template-product-accessories.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p-template-product-furniture.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p-template-product-steelDoor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p-template-product-woodenDoor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p-tv-detailTVs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pavdoors.iws" />
@@ -32,7 +26,7 @@
       <file leaf-file-name="p-template-product-steelDoor.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p-template-product-steelDoor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.192307">
+            <state vertical-scroll-proportion="0.0">
               <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
               <folding />
             </state>
@@ -42,8 +36,8 @@
       <file leaf-file-name="p-template-product-woodenDoor.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/p-template-product-woodenDoor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38494936">
-              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="83" column="64" selection-start-line="83" selection-start-column="64" selection-end-line="83" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -52,7 +46,7 @@
       <file leaf-file-name="p-template-product-furniture.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p-template-product-furniture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5">
+            <state vertical-scroll-proportion="0.0">
               <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
               <folding />
             </state>
@@ -62,7 +56,7 @@
       <file leaf-file-name="p-template-product-accessories.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p-template-product-accessories.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
+            <state vertical-scroll-proportion="0.0">
               <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
               <folding />
             </state>
@@ -72,7 +66,7 @@
       <file leaf-file-name="p-chunk-footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p-chunk-footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
+            <state vertical-scroll-proportion="0.0">
               <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
               <folding />
             </state>
@@ -82,7 +76,7 @@
       <file leaf-file-name="index-p.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index-p.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
+            <state vertical-scroll-proportion="0.0">
               <caret line="91" column="72" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="72" />
               <folding />
             </state>
@@ -92,7 +86,7 @@
       <file leaf-file-name="p-tv-detailTVs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p-tv-detailTVs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.807693">
+            <state vertical-scroll-proportion="0.0">
               <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
@@ -102,7 +96,7 @@
       <file leaf-file-name="p-chunk-installMKDoors.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p-chunk-installMKDoors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7307693">
+            <state vertical-scroll-proportion="0.0">
               <caret line="135" column="55" selection-start-line="135" selection-start-column="55" selection-end-line="135" selection-end-column="55" />
               <folding />
             </state>
@@ -112,7 +106,7 @@
       <file leaf-file-name="p-templete-productPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p-templete-productPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
+            <state vertical-scroll-proportion="0.0">
               <caret line="99" column="65" selection-start-line="99" selection-start-column="65" selection-end-line="99" selection-end-column="65" />
               <folding />
             </state>
@@ -226,6 +220,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,7 +242,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,7 +333,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23272215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -476,7 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.076923">
           <caret line="83" column="34" selection-start-line="74" selection-start-column="24" selection-end-line="83" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,10 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="684" column="45" selection-start-line="684" selection-start-column="45" selection-end-line="684" selection-end-column="45" />
-          <folding>
-            <marker date="1458902292953" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458902292953" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,13 +680,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/p-chunk-installMKDoors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7307693">
+        <state vertical-scroll-proportion="0.0">
           <caret line="135" column="55" selection-start-line="135" selection-start-column="55" selection-end-line="135" selection-end-column="55" />
           <folding />
         </state>
@@ -707,7 +693,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p-templete-productPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
+        <state vertical-scroll-proportion="0.0">
           <caret line="99" column="65" selection-start-line="99" selection-start-column="65" selection-end-line="99" selection-end-column="65" />
           <folding />
         </state>
@@ -715,7 +701,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index-p.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
+        <state vertical-scroll-proportion="0.0">
           <caret line="91" column="72" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="72" />
           <folding />
         </state>
@@ -723,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p-chunk-footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
+        <state vertical-scroll-proportion="0.0">
           <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
           <folding />
         </state>
@@ -731,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p-template-product-steelDoor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.192307">
+        <state vertical-scroll-proportion="0.0">
           <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
           <folding />
         </state>
@@ -739,7 +725,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p-tv-detailTVs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.807693">
+        <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
@@ -747,7 +733,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p-template-product-furniture.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
           <folding />
         </state>
@@ -755,7 +741,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p-template-product-accessories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
+        <state vertical-scroll-proportion="0.0">
           <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
           <folding />
         </state>
@@ -763,8 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p-template-product-woodenDoor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38494936">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="64" selection-start-line="83" selection-start-column="64" selection-end-line="83" selection-end-column="64" />
           <folding />
         </state>
       </provider>
