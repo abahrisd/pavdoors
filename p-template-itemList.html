@@ -60,10 +60,27 @@
                     <!--Продукты-->
                     <div class="row popup-products">
                         <div id="isotopeContainer" class="isotope-container">
-                            [[!pdoResources:default=`Результаты не найдены`? &parents=`[[*id]]` &includeTVs=`price,cover,color,manufacturer,compactor,install,furType,accessories,dataImage,dataName,dataDescription` &tpl=`item` &limit=50]]
+
+                            [[!getPage@itemsPaging?
+                            &elementClass=`modSnippet`
+                            &element=`pdoResources`
+                            &parents=`[[*id]]`
+                            &includeTVs=`price,cover,color,manufacturer,compactor,install,furType,accessories,dataImage,dataName,dataDescription`
+                            &tpl=`item`
+                            &limit=20
+                            ]]
+                            <!--[[!pdoResources:default=`Результаты не найдены`? &parents=`[[*id]]` &includeTVs=`price,cover,color,manufacturer,compactor,install,furType,accessories,dataImage,dataName,dataDescription` &tpl=`item` &limit=50]]-->
+
                         </div>
                     </div>
                     <hr/>
+                    <div class="pagination">
+                        <ul>
+                            <li class="active"><span style="padding: 6px 14px;font-weight: bold;">Страница [[+page]] из [[+pageCount]]</span></li>
+                            [[!+page.nav]]
+                            <li></li>
+                        </ul>
+                    </div>
                 </section>
 
             </div>
